@@ -5,7 +5,7 @@
     "containerDefinitions": [
         {
             "name": "next-uk-post-codes",
-            "image": "924308068754.dkr.ecr.us-east-2.amazonaws.com/newecsrepo",
+            "image": "924308068754.dkr.ecr.us-east-2.amazonaws.com/newecsrepo:latest",
             "portMappings": [
                 {
                     "containerPort": 3000,
