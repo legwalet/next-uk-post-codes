@@ -3,12 +3,12 @@ FROM ubuntu:latest
 # Setting working directory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
 
-# Update npm
-RUN npm update -g
-
 # Installing dependencies
 COPY package*.json ./
 RUN npm install
+
+# Update npm
+RUN npm update -g
 
 # Copying source files
 COPY . .
