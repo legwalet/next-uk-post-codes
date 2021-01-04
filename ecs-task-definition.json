@@ -4,8 +4,8 @@
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
-            "name": "nodeapp",
-            "image": "924308068754.dkr.ecr.us-east-2.amazonaws.com/nodeapp:latest",
+            "name": "ecsdrive",
+            "image": "924308068754.dkr.ecr.us-east-2.amazonaws.com/ecsdrive:latest",
             "portMappings": [
                 {
                     "containerPort": 3000,
