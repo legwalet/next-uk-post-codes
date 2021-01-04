@@ -1,7 +1,10 @@
-FROM node:10
+FROM ubuntu:latest
 
 # Setting working directory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
+
+# Update npm
+RUN npm update
 
 # Installing dependencies
 COPY package*.json ./
