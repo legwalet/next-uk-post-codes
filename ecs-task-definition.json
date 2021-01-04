@@ -1,10 +1,10 @@
 {
-    "family": "ecsdemo",
+    "family": "newecsrepo",
     "executionRoleArn": "arn:aws:iam::924308068754:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
-            "name": "ecsdemo",
+            "name": "newecsrepo",
             "image": "924308068754.dkr.ecr.us-east-2.amazonaws.com/newecsrepo:latest",
             "portMappings": [
                 {
