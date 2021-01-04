@@ -1,11 +1,11 @@
 {
-    "family": "newecsrepo",
+    "family": "nodeapp",
     "executionRoleArn": "arn:aws:iam::924308068754:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
-            "name": "newecsrepo",
-            "image": "924308068754.dkr.ecr.us-east-2.amazonaws.com/newecsrepo:latest",
+            "name": "nodeapp",
+            "image": "924308068754.dkr.ecr.us-east-2.amazonaws.com/nodeapp:latest",
             "portMappings": [
                 {
                     "containerPort": 3000,
