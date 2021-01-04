@@ -4,7 +4,7 @@ FROM ubuntu:latest
 WORKDIR /usr/src/app
 
 # Update npm
-RUN npm update
+RUN npm update -g
 
 # Installing dependencies
 COPY package*.json ./
