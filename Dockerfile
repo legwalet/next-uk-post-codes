@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM node:latest
 
 # Setting working directory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
