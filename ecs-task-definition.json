@@ -1,11 +1,11 @@
 {
-    "family": "nodeapp",
+    "family": "docker",
     "executionRoleArn": "arn:aws:iam::924308068754:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
-            "name": "ecsdrive",
-            "image": "924308068754.dkr.ecr.us-east-2.amazonaws.com/ecsdrive:latest",
+            "name": "docker",
+            "image": "924308068754.dkr.ecr.us-east-2.amazonaws.com/docker:latest",
             "portMappings": [
                 {
                     "containerPort": 3000,
